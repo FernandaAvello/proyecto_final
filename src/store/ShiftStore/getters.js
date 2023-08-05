@@ -1,0 +1,1 @@
+export const shifts = state => state.shifts
