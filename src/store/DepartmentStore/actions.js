@@ -1,4 +1,4 @@
-import axios from '@/plugins/axios'
+import axios from 'axios'
 
 export const getDepartments = ({commit}) => {
   return axios.get('department.json')

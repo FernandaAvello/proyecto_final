@@ -1,4 +1,4 @@
-import axios from '@/plugins/axios'
+import axios from 'axios'
 
 export const getShifts = ({commit}) => {
   return axios.get('shift.json')
